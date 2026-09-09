@@ -1,0 +1,16 @@
+{
+  "reviewRevision":"2026-09-09-v2",
+  "editorialSourceLocale":"en",
+  "policy":"Canonical facts resolve into professional English copy and then into language-specific localisation. Translations preserve fact meaning while using natural recruitment language.",
+  "locales":[
+    {"locale":"en","state":"editorial_source","sourceTextRevision":"v2"},
+    {"locale":"es","state":"professionally_localised_draft","sourceTextRevision":"v2"},
+    {"locale":"zh","state":"professionally_localised_draft","sourceTextRevision":"v2"},
+    {"locale":"fi","state":"professionally_localised_draft","sourceTextRevision":"v2","notes":"Accepted English technical terms retained where clearer."}
+  ],
+  "invalidationRules":[
+    {"changeType":"metric_value_only","action":"regenerate website and PDFs"},
+    {"changeType":"semantic_english_change","action":"review corresponding Spanish, Chinese, and Finnish fields"},
+    {"changeType":"new_message_key","action":"block validation until the key exists in all four locales"}
+  ]
+}

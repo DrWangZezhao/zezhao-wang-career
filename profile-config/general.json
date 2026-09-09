@@ -1,0 +1,12 @@
+{
+  "id":"general","slug":"general","nameKey":"profile.general.name","headlineKey":"profile.general.headline","summaryKey":"profile.general.summary",
+  "targetRoleKeys":["role.overview.dataEvaluation","role.overview.aiQuality","role.overview.userCustomer","role.overview.productSupport"],
+  "experienceIds":["exp-doctoral-research","exp-edx-analytics","exp-evalcomplin","exp-stanford-visit","exp-independent-discovery"],
+  "evidencePriorityIds":["ev-doctoral-workflows","ev-doctoral-error-question","ev-doctoral-human-reference","ev-edx-users","ev-edx-analysis","ev-edx-recommendations","ev-evalcomplin-instruments","ev-evalcomplin-quality","ev-stanford-focus","ev-stanford-communication","ev-discovery-needs","ev-discovery-proposals","ev-inspector-analysis","ev-inspector-architecture","ev-inspector-engineering"],
+  "caseStudyIds":["case-user-learning-analytics","case-multilingual-ai-speech","case-evaluation-data-inspector"],
+  "projectIds":["project-evaluation-data-inspector"],"publicationIds":["pub-wang-2024-validation"],"educationIds":["edu-phd","edu-masters","edu-bachelors"],
+  "skillGroupIds":["skills-analysis","skills-research","skills-collaboration"],
+  "toolIds":["tool-python","tool-r","tool-whisper","tool-gpt","tool-pandas","tool-streamlit","tool-git","tool-excel"],
+  "sectionOrder":["evidence","experience","cases","projects","education","skills","languages","publications"],
+  "cv":{"template":"overview","evidenceLimits":{"exp-doctoral-research":3,"exp-edx-analytics":3,"exp-evalcomplin":2,"exp-stanford-visit":2,"exp-independent-discovery":2},"projectEvidenceLimit":3}
+}

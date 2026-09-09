@@ -1,0 +1,18 @@
+[
+  {
+    "id":"case-user-learning-analytics","index":"01","titleKey":"case.user.title","kickerKey":"case.user.kicker","problemKey":"case.user.problem","contextKey":"case.user.context","roleKey":"case.user.role","analysisKey":"case.user.analysis","deliverableKey":"case.user.deliverable","interpretationKey":"case.user.interpretation",
+    "evidenceIds":["ev-edx-users","ev-edx-analysis","ev-edx-recommendations","ev-edx-collaboration"],"methodIds":["method-data-preparation","method-descriptive-statistics","method-mixed-methods"],"toolIds":["tool-python","tool-r","tool-excel"],"relatedExperienceIds":["exp-edx-analytics"],"url":null
+  },
+  {
+    "id":"case-multilingual-ai-speech","index":"02","titleKey":"case.ai.title","kickerKey":"case.ai.kicker","problemKey":"case.ai.problem","contextKey":"case.ai.context","roleKey":"case.ai.role","analysisKey":"case.ai.analysis","deliverableKey":"case.ai.deliverable","interpretationKey":"case.ai.interpretation",
+    "evidenceIds":["ev-doctoral-workflows","ev-doctoral-error-question","ev-doctoral-model-comparison","ev-doctoral-human-reference","ev-doctoral-review-criteria"],"methodIds":["method-regression-calibration","method-reliability-validity","method-error-classification","method-inter-rater"],"toolIds":["tool-whisper","tool-gpt","tool-python","tool-r"],"relatedExperienceIds":["exp-doctoral-research"],"url":null
+  },
+  {
+    "id":"case-evaluation-data-inspector","index":"03","titleKey":"case.inspector.title","kickerKey":"case.inspector.kicker","problemKey":"case.inspector.problem","contextKey":"case.inspector.context","roleKey":"case.inspector.role","analysisKey":"case.inspector.analysis","deliverableKey":"case.inspector.deliverable","interpretationKey":"case.inspector.interpretation",
+    "evidenceIds":["ev-inspector-input","ev-inspector-analysis","ev-inspector-architecture","ev-inspector-engineering","ev-inspector-deployment"],"methodIds":["method-data-preparation","method-descriptive-statistics","method-group-comparison","method-effect-sizes"],"toolIds":["tool-python","tool-pandas","tool-numpy","tool-streamlit","tool-pytest","tool-docker"],"relatedExperienceIds":[],"url":"https://evaluation-data-inspector.streamlit.app/"
+  },
+  {
+    "id":"case-evalcomplin-validation","index":"04","titleKey":"case.evalcomplin.title","kickerKey":"case.evalcomplin.kicker","problemKey":"case.evalcomplin.problem","contextKey":"case.evalcomplin.context","roleKey":"case.evalcomplin.role","analysisKey":"case.evalcomplin.analysis","deliverableKey":"case.evalcomplin.deliverable","interpretationKey":"case.evalcomplin.interpretation",
+    "evidenceIds":["ev-evalcomplin-instruments","ev-evalcomplin-fieldwork","ev-evalcomplin-quality","ev-evalcomplin-synthesis"],"methodIds":["method-surveys-interviews","method-mixed-methods","method-reliability-validity","method-group-comparison","method-effect-sizes"],"toolIds":["tool-r","tool-python"],"relatedExperienceIds":["exp-evalcomplin"],"url":null
+  }
+]

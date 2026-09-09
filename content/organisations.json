@@ -1,0 +1,52 @@
+[
+  {
+    "id": "org-universitat-valencia",
+    "canonicalName": "Universitat de València",
+    "type": "university",
+    "url": "https://www.uv.es/",
+    "sourceRefs": ["S1", "S2", "S3", "S4", "S5"]
+  },
+  {
+    "id": "org-upv",
+    "canonicalName": "Universitat Politècnica de València",
+    "type": "university",
+    "url": "https://www.upv.es/",
+    "sourceRefs": ["S4"]
+  },
+  {
+    "id": "org-stanford-gse",
+    "canonicalName": "Stanford Graduate School of Education",
+    "type": "university-school",
+    "url": "https://ed.stanford.edu/",
+    "sourceRefs": ["S1", "S2", "S3", "S4", "S5"]
+  },
+  {
+    "id": "org-evalcomplin",
+    "canonicalName": "EVALCOMPLIN",
+    "type": "research-project",
+    "projectId": "PID2021-128745NB-I00",
+    "url": null,
+    "sourceRefs": ["S1", "S2", "S3", "S4"]
+  },
+  {
+    "id": "org-edx-platform",
+    "canonicalName": "edX English-language MOOC analytics project",
+    "type": "academic-project",
+    "url": "https://www.edx.org/",
+    "sourceRefs": ["S1", "S2", "S3", "S4"]
+  },
+  {
+    "id": "org-yunnan-normal",
+    "canonicalName": "Yunnan Normal University",
+    "type": "university",
+    "url": "https://www.ynnu.edu.cn/",
+    "sourceRefs": ["S5"]
+  },
+  {
+    "id": "org-santiago-apostol",
+    "canonicalName": "Colegio Parroquial Diocesano Santiago Apóstol",
+    "type": "school",
+    "url": null,
+    "sourceRefs": ["S5"]
+  }
+]

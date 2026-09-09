@@ -1,0 +1,11 @@
+[
+  {
+    "id": "dissertation-phd",
+    "educationId": "edu-phd",
+    "title": "A Study on Error-Preserving Automatic Transcription: Validation of a Simplified Tool for Speech Analysis and Oral Language Assessment",
+    "methodIds": ["method-reliability-validity", "method-regression-calibration", "method-error-classification", "method-inter-rater"],
+    "toolIds": ["tool-whisper", "tool-gpt", "tool-python", "tool-r"],
+    "sourceRefs": [{"sourceId": "S4", "locator": "p. 2"}],
+    "visibility": "public"
+  }
+]

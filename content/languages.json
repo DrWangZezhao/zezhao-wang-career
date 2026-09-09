@@ -1,0 +1,7 @@
+[
+  {"id":"lang-zh","languageTag":"zh-Hans","nameKey":"language.zh","proficiency":"native","sourceRefs":["S1","S2","S3","S4","S5"]},
+  {"id":"lang-en","languageTag":"en","nameKey":"language.en","proficiency":"C2","sourceRefs":["S1","S2","S3","S4","S5"]},
+  {"id":"lang-es","languageTag":"es-ES","nameKey":"language.es","proficiency":"C2","sourceRefs":["S1","S2","S3","S4","S5"]},
+  {"id":"lang-fi","languageTag":"fi","nameKey":"language.fi","proficiency":"B1","sourceRefs":["S1","S2","S3","S4","S5"]},
+  {"id":"lang-ca","languageTag":"ca","nameKey":"language.ca","proficiency":"B1","sourceRefs":["S1","S3","S4","S5"]}
+]

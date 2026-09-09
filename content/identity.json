@@ -1,0 +1,15 @@
+{
+  "id": "person-zezhao-wang",
+  "displayName": "ZEZHAO WANG",
+  "professionalPrefix": "PhD",
+  "professionalTitleKey": "identity.title",
+  "specialisationKey": "identity.specialisation",
+  "location": {
+    "city": "Helsinki",
+    "country": "Finland"
+  },
+  "availabilityKey": "site.availability",
+  "publicContactIds": ["contact-email"],
+  "publicLinkIds": ["link-linkedin", "link-github"],
+  "visibility": "public"
+}

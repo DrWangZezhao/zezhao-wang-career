@@ -1,0 +1,12 @@
+{
+  "id":"ai-evaluation","slug":"ai-evaluation","nameKey":"profile.ai-evaluation.name","headlineKey":"profile.ai-evaluation.headline","summaryKey":"profile.ai-evaluation.summary",
+  "targetRoleKeys":["role.ai.modelEvaluation","role.ai.dataQuality","role.ai.operationsQuality","role.ai.researchAnalyst"],
+  "experienceIds":["exp-doctoral-research","exp-edx-analytics","exp-evalcomplin","exp-stanford-visit"],
+  "evidencePriorityIds":["ev-doctoral-error-question","ev-doctoral-workflows","ev-doctoral-model-comparison","ev-doctoral-human-reference","ev-doctoral-review-criteria","ev-inspector-analysis","ev-inspector-architecture","ev-inspector-engineering","ev-edx-analysis","ev-edx-users","ev-evalcomplin-quality","ev-evalcomplin-instruments","ev-stanford-focus"],
+  "caseStudyIds":["case-multilingual-ai-speech","case-evaluation-data-inspector","case-user-learning-analytics"],
+  "projectIds":["project-evaluation-data-inspector"],"publicationIds":[],"educationIds":["edu-phd","edu-masters","edu-bachelors"],
+  "skillGroupIds":["skills-analysis","skills-research","skills-collaboration"],
+  "toolIds":["tool-python","tool-whisper","tool-gpt","tool-r","tool-pandas","tool-numpy","tool-pytest","tool-streamlit"],
+  "sectionOrder":["evidence","cases","experience","projects","skills","education","languages"],
+  "cv":{"template":"ai-quality","evidenceLimits":{"exp-doctoral-research":4,"exp-edx-analytics":2,"exp-evalcomplin":2,"exp-stanford-visit":1},"projectEvidenceLimit":3}
+}

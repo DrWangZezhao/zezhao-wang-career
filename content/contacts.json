@@ -1,0 +1,26 @@
+[
+  {
+    "id": "contact-email",
+    "type": "email",
+    "value": "zezwang@alumni.uv.es",
+    "labelKey": "contact.email",
+    "public": true,
+    "sourceRefs": ["S1", "S2", "S3", "S4"]
+  },
+  {
+    "id": "link-linkedin",
+    "type": "url",
+    "value": "https://www.linkedin.com/in/zezhao-wang-phd-068519170/",
+    "labelKey": "contact.linkedin",
+    "public": true,
+    "sourceRefs": ["S4"]
+  },
+  {
+    "id": "link-github",
+    "type": "url",
+    "value": "https://github.com/zedwong1998-afk",
+    "labelKey": "contact.github",
+    "public": true,
+    "sourceRefs": ["GITHUB-ACCOUNT"]
+  }
+]

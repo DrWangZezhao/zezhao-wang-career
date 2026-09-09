@@ -1,0 +1,434 @@
+media:
+  input: public/media
+  output: /media
+
+components:
+  partial_date:
+    type: object
+    fields:
+      - { name: year, type: number, required: true }
+      - { name: month, type: number }
+      - { name: day, type: number }
+      - name: precision
+        type: select
+        required: true
+        options: { values: [year, month, day] }
+  messages:
+    type: object
+    label: Professional copy
+    fields:
+        - { name: "site.eyebrow", label: "site.eyebrow", type: string }
+        - { name: "site.location", label: "site.location", type: string }
+        - { name: "site.availability", label: "site.availability", type: text }
+        - { name: "identity.title", label: "identity.title", type: string }
+        - { name: "identity.specialisation", label: "identity.specialisation", type: string }
+        - { name: "nav.skip", label: "nav.skip", type: string }
+        - { name: "nav.profile", label: "nav.profile", type: string }
+        - { name: "nav.cv", label: "nav.cv", type: string }
+        - { name: "nav.viewCv", label: "nav.viewCv", type: string }
+        - { name: "nav.downloadPdf", label: "nav.downloadPdf", type: string }
+        - { name: "nav.backToProfile", label: "nav.backToProfile", type: string }
+        - { name: "nav.viewProject", label: "nav.viewProject", type: string }
+        - { name: "nav.viewCases", label: "nav.viewCases", type: string }
+        - { name: "nav.contact", label: "nav.contact", type: string }
+        - { name: "nav.language", label: "nav.language", type: string }
+        - { name: "nav.menu", label: "nav.menu", type: string }
+        - { name: "section.evidence", label: "section.evidence", type: string }
+        - { name: "section.experience", label: "section.experience", type: string }
+        - { name: "section.cases", label: "section.cases", type: string }
+        - { name: "section.projects", label: "section.projects", type: string }
+        - { name: "section.education", label: "section.education", type: string }
+        - { name: "section.skills", label: "section.skills", type: string }
+        - { name: "section.tools", label: "section.tools", type: string }
+        - { name: "section.languages", label: "section.languages", type: string }
+        - { name: "section.contact", label: "section.contact", type: string }
+        - { name: "section.publications", label: "section.publications", type: string }
+        - { name: "section.roleFit", label: "section.roleFit", type: string }
+        - { name: "field.problem", label: "field.problem", type: string }
+        - { name: "field.context", label: "field.context", type: string }
+        - { name: "field.role", label: "field.role", type: string }
+        - { name: "field.evidence", label: "field.evidence", type: string }
+        - { name: "field.methods", label: "field.methods", type: string }
+        - { name: "field.analysis", label: "field.analysis", type: string }
+        - { name: "field.deliverable", label: "field.deliverable", type: string }
+        - { name: "field.interpretation", label: "field.interpretation", type: string }
+        - { name: "contact.email", label: "contact.email", type: string }
+        - { name: "contact.phone", label: "contact.phone", type: string }
+        - { name: "contact.linkedin", label: "contact.linkedin", type: string }
+        - { name: "contact.github", label: "contact.github", type: string }
+        - { name: "contact.prompt", label: "contact.prompt", type: text }
+        - { name: "profile.general.name", label: "profile.general.name", type: string }
+        - { name: "profile.general.headline", label: "profile.general.headline", type: string }
+        - { name: "profile.general.summary", label: "profile.general.summary", type: text }
+        - { name: "profile.ai-evaluation.name", label: "profile.ai-evaluation.name", type: string }
+        - { name: "profile.ai-evaluation.headline", label: "profile.ai-evaluation.headline", type: string }
+        - { name: "profile.ai-evaluation.summary", label: "profile.ai-evaluation.summary", type: text }
+        - { name: "profile.data-people-analytics.name", label: "profile.data-people-analytics.name", type: string }
+        - { name: "profile.data-people-analytics.headline", label: "profile.data-people-analytics.headline", type: string }
+        - { name: "profile.data-people-analytics.summary", label: "profile.data-people-analytics.summary", type: text }
+        - { name: "profile.customer-business-growth.name", label: "profile.customer-business-growth.name", type: string }
+        - { name: "profile.customer-business-growth.headline", label: "profile.customer-business-growth.headline", type: string }
+        - { name: "profile.customer-business-growth.summary", label: "profile.customer-business-growth.summary", type: text }
+        - { name: "profile.research-assessment.name", label: "profile.research-assessment.name", type: string }
+        - { name: "profile.research-assessment.headline", label: "profile.research-assessment.headline", type: string }
+        - { name: "profile.research-assessment.summary", label: "profile.research-assessment.summary", type: text }
+        - { name: "role.overview.dataEvaluation", label: "role.overview.dataEvaluation", type: string }
+        - { name: "role.overview.aiQuality", label: "role.overview.aiQuality", type: string }
+        - { name: "role.overview.userCustomer", label: "role.overview.userCustomer", type: string }
+        - { name: "role.overview.productSupport", label: "role.overview.productSupport", type: string }
+        - { name: "role.ai.modelEvaluation", label: "role.ai.modelEvaluation", type: string }
+        - { name: "role.ai.dataQuality", label: "role.ai.dataQuality", type: string }
+        - { name: "role.ai.operationsQuality", label: "role.ai.operationsQuality", type: string }
+        - { name: "role.ai.researchAnalyst", label: "role.ai.researchAnalyst", type: string }
+        - { name: "role.data.dataAnalyst", label: "role.data.dataAnalyst", type: string }
+        - { name: "role.data.productInsights", label: "role.data.productInsights", type: string }
+        - { name: "role.data.evaluationAnalyst", label: "role.data.evaluationAnalyst", type: string }
+        - { name: "role.data.researchAnalyst", label: "role.data.researchAnalyst", type: string }
+        - { name: "role.customer.customerSuccess", label: "role.customer.customerSuccess", type: string }
+        - { name: "role.customer.customerInsights", label: "role.customer.customerInsights", type: string }
+        - { name: "role.customer.partnershipSupport", label: "role.customer.partnershipSupport", type: string }
+        - { name: "role.customer.growthSupport", label: "role.customer.growthSupport", type: string }
+        - { name: "role.research.research", label: "role.research.research", type: string }
+        - { name: "role.research.assessment", label: "role.research.assessment", type: string }
+        - { name: "role.research.measurement", label: "role.research.measurement", type: string }
+        - { name: "role.research.evaluation", label: "role.research.evaluation", type: string }
+        - { name: "experience.edx.title", label: "experience.edx.title", type: string }
+        - { name: "experience.doctoral.title", label: "experience.doctoral.title", type: string }
+        - { name: "experience.evalcomplin.title", label: "experience.evalcomplin.title", type: string }
+        - { name: "experience.stanford.title", label: "experience.stanford.title", type: string }
+        - { name: "experience.discovery.title", label: "experience.discovery.title", type: string }
+        - { name: "experience.practicum.title", label: "experience.practicum.title", type: string }
+        - { name: "location.valencia", label: "location.valencia", type: string }
+        - { name: "location.valenciaHybrid", label: "location.valenciaHybrid", type: string }
+        - { name: "location.stanford", label: "location.stanford", type: string }
+        - { name: "location.helsinki", label: "location.helsinki", type: string }
+        - { name: "project.inspector.title", label: "project.inspector.title", type: string }
+        - { name: "project.inspector.summary", label: "project.inspector.summary", type: text }
+        - { name: "collaboration.edx.description", label: "collaboration.edx.description", type: text }
+        - { name: "collaboration.stanford.description", label: "collaboration.stanford.description", type: text }
+        - { name: "education.phd.degree", label: "education.phd.degree", type: string }
+        - { name: "education.phd.field", label: "education.phd.field", type: string }
+        - { name: "education.phd.honours", label: "education.phd.honours", type: string }
+        - { name: "education.masters.degree", label: "education.masters.degree", type: string }
+        - { name: "education.masters.field", label: "education.masters.field", type: string }
+        - { name: "education.bachelors.degree", label: "education.bachelors.degree", type: string }
+        - { name: "education.bachelors.field", label: "education.bachelors.field", type: string }
+        - { name: "education.dissertation", label: "education.dissertation", type: string }
+        - { name: "language.zh", label: "language.zh", type: string }
+        - { name: "language.en", label: "language.en", type: string }
+        - { name: "language.es", label: "language.es", type: string }
+        - { name: "language.fi", label: "language.fi", type: string }
+        - { name: "language.ca", label: "language.ca", type: string }
+        - { name: "language.native", label: "language.native", type: string }
+        - { name: "language.fiDetail", label: "language.fiDetail", type: string }
+        - { name: "method.dataPreparation", label: "method.dataPreparation", type: string }
+        - { name: "method.descriptiveStatistics", label: "method.descriptiveStatistics", type: string }
+        - { name: "method.groupComparison", label: "method.groupComparison", type: string }
+        - { name: "method.effectSizes", label: "method.effectSizes", type: string }
+        - { name: "method.regressionCalibration", label: "method.regressionCalibration", type: string }
+        - { name: "method.reliabilityValidity", label: "method.reliabilityValidity", type: string }
+        - { name: "method.interRater", label: "method.interRater", type: string }
+        - { name: "method.errorClassification", label: "method.errorClassification", type: string }
+        - { name: "method.surveysInterviews", label: "method.surveysInterviews", type: string }
+        - { name: "method.mixedMethods", label: "method.mixedMethods", type: string }
+        - { name: "capability.evidenceCommunication", label: "capability.evidenceCommunication", type: string }
+        - { name: "capability.reproducibility", label: "capability.reproducibility", type: string }
+        - { name: "capability.stakeholderCollaboration", label: "capability.stakeholderCollaboration", type: string }
+        - { name: "capability.needsClarification", label: "capability.needsClarification", type: string }
+        - { name: "capability.proposalDevelopment", label: "capability.proposalDevelopment", type: string }
+        - { name: "capability.multilingualCommunication", label: "capability.multilingualCommunication", type: string }
+        - { name: "capability.implementationSupport", label: "capability.implementationSupport", type: string }
+        - { name: "capability.fullStackFoundation", label: "capability.fullStackFoundation", type: string }
+        - { name: "skills.analysis", label: "skills.analysis", type: string }
+        - { name: "skills.research", label: "skills.research", type: string }
+        - { name: "skills.collaboration", label: "skills.collaboration", type: string }
+        - { name: "skills.tools", label: "skills.tools", type: string }
+        - { name: "tool.level.practical", label: "tool.level.practical", type: string }
+        - { name: "tool.level.research", label: "tool.level.research", type: string }
+        - { name: "tool.level.working", label: "tool.level.working", type: string }
+        - { name: "tool.level.configuration", label: "tool.level.configuration", type: string }
+        - { name: "evidence.edx.users", label: "evidence.edx.users", type: text }
+        - { name: "evidence.edx.analysis", label: "evidence.edx.analysis", type: text }
+        - { name: "evidence.edx.recommendations", label: "evidence.edx.recommendations", type: text }
+        - { name: "evidence.edx.collaboration", label: "evidence.edx.collaboration", type: text }
+        - { name: "evidence.doctoral.workflows", label: "evidence.doctoral.workflows", type: text }
+        - { name: "evidence.doctoral.errorQuestion", label: "evidence.doctoral.errorQuestion", type: text }
+        - { name: "evidence.doctoral.comparison", label: "evidence.doctoral.comparison", type: text }
+        - { name: "evidence.doctoral.humanReference", label: "evidence.doctoral.humanReference", type: text }
+        - { name: "evidence.doctoral.criteria", label: "evidence.doctoral.criteria", type: text }
+        - { name: "evidence.doctoral.delivery", label: "evidence.doctoral.delivery", type: text }
+        - { name: "evidence.doctoral.r2", label: "evidence.doctoral.r2", type: string }
+        - { name: "evidence.evalcomplin.instruments", label: "evidence.evalcomplin.instruments", type: text }
+        - { name: "evidence.evalcomplin.fieldwork", label: "evidence.evalcomplin.fieldwork", type: text }
+        - { name: "evidence.evalcomplin.quality", label: "evidence.evalcomplin.quality", type: text }
+        - { name: "evidence.evalcomplin.synthesis", label: "evidence.evalcomplin.synthesis", type: text }
+        - { name: "evidence.stanford.focus", label: "evidence.stanford.focus", type: text }
+        - { name: "evidence.stanford.communication", label: "evidence.stanford.communication", type: text }
+        - { name: "evidence.discovery.discussions", label: "evidence.discovery.discussions", type: text }
+        - { name: "evidence.discovery.needs", label: "evidence.discovery.needs", type: string }
+        - { name: "evidence.discovery.proposals", label: "evidence.discovery.proposals", type: string }
+        - { name: "evidence.discovery.multilingual", label: "evidence.discovery.multilingual", type: text }
+        - { name: "evidence.practicum.support", label: "evidence.practicum.support", type: text }
+        - { name: "evidence.practicum.observation", label: "evidence.practicum.observation", type: text }
+        - { name: "evidence.practicum.communication", label: "evidence.practicum.communication", type: string }
+        - { name: "evidence.inspector.input", label: "evidence.inspector.input", type: text }
+        - { name: "evidence.inspector.analysis", label: "evidence.inspector.analysis", type: text }
+        - { name: "evidence.inspector.architecture", label: "evidence.inspector.architecture", type: string }
+        - { name: "evidence.inspector.engineering", label: "evidence.inspector.engineering", type: text }
+        - { name: "evidence.inspector.deployment", label: "evidence.inspector.deployment", type: string }
+        - { name: "case.user.title", label: "case.user.title", type: string }
+        - { name: "case.user.kicker", label: "case.user.kicker", type: string }
+        - { name: "case.user.problem", label: "case.user.problem", type: text }
+        - { name: "case.user.context", label: "case.user.context", type: string }
+        - { name: "case.user.role", label: "case.user.role", type: text }
+        - { name: "case.user.analysis", label: "case.user.analysis", type: text }
+        - { name: "case.user.deliverable", label: "case.user.deliverable", type: text }
+        - { name: "case.user.interpretation", label: "case.user.interpretation", type: text }
+        - { name: "case.ai.title", label: "case.ai.title", type: string }
+        - { name: "case.ai.kicker", label: "case.ai.kicker", type: string }
+        - { name: "case.ai.problem", label: "case.ai.problem", type: text }
+        - { name: "case.ai.context", label: "case.ai.context", type: text }
+        - { name: "case.ai.role", label: "case.ai.role", type: text }
+        - { name: "case.ai.analysis", label: "case.ai.analysis", type: text }
+        - { name: "case.ai.deliverable", label: "case.ai.deliverable", type: text }
+        - { name: "case.ai.interpretation", label: "case.ai.interpretation", type: text }
+        - { name: "case.inspector.title", label: "case.inspector.title", type: string }
+        - { name: "case.inspector.kicker", label: "case.inspector.kicker", type: string }
+        - { name: "case.inspector.problem", label: "case.inspector.problem", type: text }
+        - { name: "case.inspector.context", label: "case.inspector.context", type: text }
+        - { name: "case.inspector.role", label: "case.inspector.role", type: text }
+        - { name: "case.inspector.analysis", label: "case.inspector.analysis", type: text }
+        - { name: "case.inspector.deliverable", label: "case.inspector.deliverable", type: text }
+        - { name: "case.inspector.interpretation", label: "case.inspector.interpretation", type: text }
+        - { name: "case.evalcomplin.title", label: "case.evalcomplin.title", type: string }
+        - { name: "case.evalcomplin.kicker", label: "case.evalcomplin.kicker", type: string }
+        - { name: "case.evalcomplin.problem", label: "case.evalcomplin.problem", type: text }
+        - { name: "case.evalcomplin.context", label: "case.evalcomplin.context", type: text }
+        - { name: "case.evalcomplin.role", label: "case.evalcomplin.role", type: text }
+        - { name: "case.evalcomplin.analysis", label: "case.evalcomplin.analysis", type: text }
+        - { name: "case.evalcomplin.deliverable", label: "case.evalcomplin.deliverable", type: text }
+        - { name: "case.evalcomplin.interpretation", label: "case.evalcomplin.interpretation", type: text }
+        - { name: "publication.read", label: "publication.read", type: string }
+        - { name: "publication.published", label: "publication.published", type: string }
+        - { name: "manuscript.gptLanguage", label: "manuscript.gptLanguage", type: string }
+        - { name: "manuscript.adversarialAsr", label: "manuscript.adversarialAsr", type: string }
+        - { name: "cv.label", label: "cv.label", type: string }
+        - { name: "cv.professionalProfile", label: "cv.professionalProfile", type: string }
+        - { name: "cv.coreCapabilities", label: "cv.coreCapabilities", type: string }
+        - { name: "cv.selectedProject", label: "cv.selectedProject", type: string }
+        - { name: "cv.links", label: "cv.links", type: string }
+        - { name: "footer.note", label: "footer.note", type: string }
+        - { name: "footer.revision", label: "footer.revision", type: string }
+
+content:
+  - name: core
+    label: Core career facts
+    type: group
+    items:
+      - name: identity
+        label: Identity and positioning
+        type: file
+        path: content/identity.json
+        format: json
+        fields:
+          - { name: id, type: string, readonly: true }
+          - { name: displayName, label: Public name, type: string, required: true, readonly: true }
+          - { name: professionalPrefix, label: Professional prefix, type: string }
+          - { name: professionalTitleKey, type: string, readonly: true }
+          - { name: specialisationKey, type: string, readonly: true }
+          - name: location
+            type: object
+            fields:
+              - { name: city, type: string, required: true }
+              - { name: country, type: string, required: true }
+          - { name: availabilityKey, type: string, readonly: true }
+          - { name: publicContactIds, type: string, list: true }
+          - { name: publicLinkIds, type: string, list: true }
+          - { name: visibility, type: string, readonly: true }
+      - name: contacts
+        label: Contact links
+        type: file
+        path: content/contacts.json
+        format: json
+        list: true
+        fields:
+          - { name: id, type: string, readonly: true }
+          - name: type
+            type: select
+            options: { values: [email, phone, url] }
+          - { name: value, type: string }
+          - { name: labelKey, type: string, readonly: true }
+          - { name: public, type: boolean }
+          - { name: sourceRefs, type: string, list: true, hidden: true }
+      - name: education
+        label: Education
+        type: file
+        path: content/education.json
+        format: json
+        list: true
+        fields:
+          - { name: id, type: string, readonly: true }
+          - { name: degreeKey, type: string, readonly: true }
+          - { name: fieldKey, type: string, readonly: true }
+          - { name: organisationId, type: string }
+          - { name: start, component: partial_date }
+          - { name: end, component: partial_date }
+          - { name: honoursKeys, type: string, list: true }
+          - { name: dissertationId, type: string }
+          - { name: relatedExperienceIds, type: string, list: true }
+          - { name: sourceRefs, type: string, list: true, hidden: true }
+      - name: languages
+        label: Languages
+        type: file
+        path: content/languages.json
+        format: json
+        list: true
+        fields:
+          - { name: id, type: string, readonly: true }
+          - { name: languageTag, type: string }
+          - { name: nameKey, type: string, readonly: true }
+          - { name: proficiency, type: string, required: true }
+          - { name: sourceRefs, type: string, list: true, hidden: true }
+      - name: tools
+        label: Tools and proficiency
+        type: file
+        path: content/tools.json
+        format: json
+        list: true
+        fields:
+          - { name: id, type: string, readonly: true }
+          - { name: label, type: string, required: true }
+          - name: proficiency
+            type: select
+            options: { values: [practical, research, working, configuration] }
+          - { name: evidenceIds, type: string, list: true }
+          - { name: sourceRefs, type: string, list: true, hidden: true }
+
+  - name: evidence_content
+    label: Experience and portfolio
+    type: group
+    items:
+      - name: experiences
+        label: Experience records
+        type: file
+        path: content/experiences.json
+        format: json
+        list: true
+        fields:
+          - { name: id, type: string, readonly: true }
+          - { name: type, type: string }
+          - { name: titleKey, type: string, readonly: true }
+          - { name: organisationIds, type: string, list: true }
+          - { name: locationKey, type: string, readonly: true }
+          - { name: start, component: partial_date }
+          - { name: end, component: partial_date }
+          - { name: educationId, type: string }
+          - { name: evidenceIds, type: string, list: true }
+          - { name: sourceRefs, type: string, list: true, hidden: true }
+      - name: projects
+        label: Projects
+        type: file
+        path: content/projects.json
+        format: json
+        list: true
+        fields:
+          - { name: id, type: string, readonly: true }
+          - { name: type, type: string }
+          - { name: name, type: string, required: true }
+          - { name: titleKey, type: string, readonly: true }
+          - { name: summaryKey, type: string, readonly: true }
+          - { name: start, component: partial_date }
+          - { name: end, component: partial_date }
+          - { name: url, type: string }
+          - { name: repositoryUrl, type: string }
+          - { name: evidenceIds, type: string, list: true }
+          - { name: sourceRefs, type: string, list: true, hidden: true }
+      - name: publications
+        label: Publications
+        type: file
+        path: content/publications.json
+        format: json
+        list: true
+        fields:
+          - { name: id, type: string, required: true }
+          - { name: authors, type: string, required: true }
+          - { name: year, type: number, required: true }
+          - { name: title, type: text, required: true }
+          - { name: venue, type: string, required: true }
+          - { name: volume, type: string }
+          - { name: pages, type: string }
+          - { name: url, type: string }
+          - { name: status, type: select, options: { values: [published, accepted, forthcoming] } }
+          - { name: visibility, type: select, options: { values: [public, internal] } }
+          - { name: sourceRefs, type: object, list: true, hidden: true, fields: [{ name: sourceId, type: string }, { name: locator, type: string }] }
+      - name: case_studies
+        label: Case studies
+        type: file
+        path: content/case-studies.json
+        format: json
+        list: true
+        fields:
+          - { name: id, type: string, readonly: true }
+          - { name: index, type: string }
+          - { name: titleKey, type: string, readonly: true }
+          - { name: kickerKey, type: string, readonly: true }
+          - { name: problemKey, type: string, readonly: true }
+          - { name: contextKey, type: string, readonly: true }
+          - { name: roleKey, type: string, readonly: true }
+          - { name: analysisKey, type: string, readonly: true }
+          - { name: deliverableKey, type: string, readonly: true }
+          - { name: interpretationKey, type: string, readonly: true }
+          - { name: evidenceIds, type: string, list: true }
+          - { name: methodIds, type: string, list: true }
+          - { name: toolIds, type: string, list: true }
+          - { name: relatedExperienceIds, type: string, list: true }
+          - { name: url, type: string }
+
+  - name: profile_configurations
+    label: Professional profile configuration
+    type: collection
+    path: profile-config
+    format: json
+    operations: { create: false, delete: false }
+    fields:
+      - { name: id, type: string, readonly: true }
+      - { name: slug, type: string, readonly: true }
+      - { name: nameKey, type: string, readonly: true }
+      - { name: headlineKey, type: string, readonly: true }
+      - { name: summaryKey, type: string, readonly: true }
+      - { name: targetRoleKeys, type: string, list: true }
+      - { name: experienceIds, type: string, list: true }
+      - { name: evidencePriorityIds, type: string, list: true }
+      - { name: caseStudyIds, type: string, list: true }
+      - { name: projectIds, type: string, list: true }
+      - { name: publicationIds, type: string, list: true }
+      - { name: educationIds, type: string, list: true }
+      - { name: skillGroupIds, type: string, list: true }
+      - { name: toolIds, type: string, list: true }
+      - { name: sectionOrder, type: string, list: true }
+      - name: cv
+        type: object
+        fields:
+          - { name: template, type: string }
+          - name: evidenceLimits
+            type: object
+            fields:
+              - { name: exp-doctoral-research, type: number }
+              - { name: exp-edx-analytics, type: number }
+              - { name: exp-evalcomplin, type: number }
+              - { name: exp-stanford-visit, type: number }
+              - { name: exp-independent-discovery, type: number }
+              - { name: exp-language-support-practicum, type: number }
+          - { name: projectEvidenceLimit, type: number }
+
+  - name: translations
+    label: Website and CV copy
+    type: collection
+    path: locales
+    format: json
+    operations: { create: false, delete: false }
+    fields:
+      - { name: locale, type: string, readonly: true }
+      - { name: documentLanguage, type: string, readonly: true }
+      - { name: label, type: string }
+      - { name: messages, component: messages }

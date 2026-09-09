@@ -1,0 +1,70 @@
+[
+  {
+    "id": "exp-edx-analytics",
+    "type": "research-collaboration",
+    "titleKey": "experience.edx.title",
+    "organisationIds": ["org-universitat-valencia", "org-upv", "org-edx-platform"],
+    "locationKey": "location.valenciaHybrid",
+    "start": {"year": 2025, "month": null, "day": null, "precision": "year"},
+    "end": {"year": 2026, "month": null, "day": null, "precision": "year"},
+    "evidenceIds": ["ev-edx-users", "ev-edx-analysis", "ev-edx-recommendations", "ev-edx-collaboration"],
+    "sourceRefs": ["S1", "S2", "S3", "S4"]
+  },
+  {
+    "id": "exp-doctoral-research",
+    "type": "doctoral-research",
+    "titleKey": "experience.doctoral.title",
+    "organisationIds": ["org-universitat-valencia"],
+    "locationKey": "location.valencia",
+    "start": {"year": 2022, "month": null, "day": null, "precision": "year"},
+    "end": {"year": 2026, "month": null, "day": null, "precision": "year"},
+    "educationId": "edu-phd",
+    "evidenceIds": ["ev-doctoral-workflows", "ev-doctoral-error-question", "ev-doctoral-model-comparison", "ev-doctoral-human-reference", "ev-doctoral-review-criteria", "ev-doctoral-delivery", "ev-r2-calibration"],
+    "sourceRefs": ["S1", "S2", "S3", "S4"]
+  },
+  {
+    "id": "exp-evalcomplin",
+    "type": "research-project",
+    "titleKey": "experience.evalcomplin.title",
+    "organisationIds": ["org-evalcomplin", "org-universitat-valencia"],
+    "locationKey": "location.valencia",
+    "start": {"year": 2022, "month": null, "day": null, "precision": "year"},
+    "end": {"year": 2026, "month": null, "day": null, "precision": "year"},
+    "educationId": "edu-phd",
+    "evidenceIds": ["ev-evalcomplin-instruments", "ev-evalcomplin-fieldwork", "ev-evalcomplin-quality", "ev-evalcomplin-synthesis"],
+    "sourceRefs": ["S1", "S2", "S3", "S4"]
+  },
+  {
+    "id": "exp-stanford-visit",
+    "type": "academic-visit",
+    "titleKey": "experience.stanford.title",
+    "organisationIds": ["org-stanford-gse"],
+    "locationKey": "location.stanford",
+    "start": {"year": 2024, "month": 9, "day": null, "precision": "month"},
+    "end": {"year": 2024, "month": 12, "day": null, "precision": "month"},
+    "evidenceIds": ["ev-stanford-focus", "ev-stanford-communication"],
+    "sourceRefs": ["S1", "S2", "S3", "S4", "S5"]
+  },
+  {
+    "id": "exp-independent-discovery",
+    "type": "independent-professional-development",
+    "titleKey": "experience.discovery.title",
+    "organisationIds": [],
+    "locationKey": "location.helsinki",
+    "start": {"year": 2026, "month": null, "day": null, "precision": "year"},
+    "end": {"year": 2026, "month": null, "day": null, "precision": "year"},
+    "evidenceIds": ["ev-discovery-discussions", "ev-discovery-needs", "ev-discovery-proposals", "ev-discovery-multilingual"],
+    "sourceRefs": ["S1", "S3"]
+  },
+  {
+    "id": "exp-language-support-practicum",
+    "type": "education-practicum",
+    "titleKey": "experience.practicum.title",
+    "organisationIds": ["org-santiago-apostol"],
+    "locationKey": "location.valencia",
+    "start": {"year": 2022, "month": null, "day": null, "precision": "year"},
+    "end": {"year": 2023, "month": null, "day": null, "precision": "year"},
+    "evidenceIds": ["ev-practicum-support", "ev-practicum-observation", "ev-practicum-communication"],
+    "sourceRefs": ["S5"]
+  }
+]

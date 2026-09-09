@@ -1,0 +1,23 @@
+{
+  "registerRevision":"2026-09-09-v2",
+  "boundary":"V2 audited the current project, both owner briefs, recoverable career PDFs in the Codex workspace, the Evaluation Data Inspector source directory, and the authenticated GitHub account. Missing named CVs remain recorded without blocking public output.",
+  "sources":[
+    {"id":"P1","filename":"pasted-text.txt","sha256":"6293a089cdb8afc11f3fa4b1afc59375be1a2adac3625cd104aaec00f4dc8ac1","extent":"523 lines; read in full","type":"owner implementation brief and preliminary inventory","availability":"available"},
+    {"id":"P2","filename":"pasted-text.txt","sha256":"aeec2b1c8aa1504b6881bf8476ec6f26fb727c00323f68b0e2cc2bfafcb9487d","extent":"1851 lines; read in full","type":"owner V2 production specification","availability":"available"},
+    {"id":"S1","filename":"Zezhao_Wang_Kela_CV_EN(2).pdf","extent":"2 pages, transcribed in P1","type":"CV claim source","availability":"missing_original"},
+    {"id":"S2","filename":"Zezhao_Wang_Data_Quality_Model_Evaluation_CV_EN(1).pdf","extent":"2 pages, transcribed in P1","type":"CV claim source","availability":"missing_original"},
+    {"id":"S3","filename":"Zezhao_Wang_Data_Customer_Growth_CV_2026(2).pdf","extent":"2 pages, transcribed in P1","type":"CV claim source","availability":"missing_original"},
+    {"id":"S4","filename":"Zezhao_Wang_EdTech_CV_2026.pdf","sha256":"1b83f2cd28b1841287df6deb3b05a9fb3ed76774c47605a4cff8c5e1491e30d1","extent":"2 pages; text and link annotations read in full","type":"owner career evidence PDF","availability":"available","pathHint":"Codex workspace 2026-07-07"},
+    {"id":"S5","filename":"Zezhao_Wang_Early_Childhood_CV.pdf","sha256":"e32da977f6e15e5a68b994762df1b9eb464430dafd264cc4ce1ae06213b32ed9","extent":"1 page; read in full","type":"owner career evidence PDF","availability":"available","pathHint":"Codex workspace 2026-06-05"},
+    {"id":"APP-SOURCE","filename":"evaluation-data-inspector source directory","extent":"README, DEPLOYMENT.md, application and tests inspected","type":"portfolio project source","availability":"available","pathHint":"Codex workspace 2026-09-07"},
+    {"id":"GITHUB-ACCOUNT","filename":"authenticated GitHub profile","extent":"account login and profile inspected","type":"professional account link","availability":"available","login":"zedwong1998-afk"}
+  ],
+  "requestedButUnavailable":[
+    "Zezhao_Wang_Open_Application_CV_2026",
+    "Zezhao_Wang_Data_Evaluation_CV_2026",
+    "Zezhao_Wang_AI_Business_Data_CV_2026",
+    "Zezhao_Wang_Customer_Success_CV_2026",
+    "Zezhao_Wang_Commercial_CV_2026"
+  ],
+  "publicSourcePolicy":"Public pages are generated from canonical content only. Source files, hashes, conflict notes, and validation records are not copied into public assets."
+}

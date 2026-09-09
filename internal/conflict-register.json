@@ -1,0 +1,20 @@
+{
+  "revision":"2026-09-09-v2",
+  "resolved":[
+    {"field":"identity.displayName","resolution":"ZEZHAO WANG","basis":"owner V2 instruction"},
+    {"field":"contacts.linkedin","resolution":"https://www.linkedin.com/in/zezhao-wang-phd-068519170/","basis":"S4 PDF link annotation"},
+    {"field":"education.bachelors.organisation","resolution":"Yunnan Normal University","basis":"S5"},
+    {"field":"education.masters.field","resolution":"Special Education — Speech and Language Support","basis":"S4 and S5"},
+    {"field":"education.phd.dissertation","resolution":"A Study on Error-Preserving Automatic Transcription: Validation of a Simplified Tool for Speech Analysis and Oral Language Assessment","basis":"S4"},
+    {"field":"experience.stanford.collaborator","resolution":"Professor Guillermo Solano-Flores","basis":"S4"},
+    {"field":"experience.edx.collaboration","resolution":"Professor Ana Gimeno-Sanz and Universitat Politècnica de València","basis":"S4"},
+    {"field":"evalcomplin.projectId","resolution":"PID2021-128745NB-I00","basis":"S4"},
+    {"field":"publication.2024","resolution":"One formal publication with repository link","basis":"S4, S5, and resolved handle"}
+  ],
+  "unresolved":[
+    {"field":"evidence.ev-r2-calibration.context","action":"retained internally; omitted from public output"},
+    {"field":"project-evaluation-data-inspector.repositoryUrl","action":"omitted until a repository URL is supplied"},
+    {"field":"manuscripts.fullMetadata","action":"tracked internally; omitted from public publication list"},
+    {"field":"five named V2 CV source files","action":"recorded missing; no substitute facts invented"}
+  ]
+}

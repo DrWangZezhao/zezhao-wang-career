@@ -1,0 +1,8 @@
+{
+  "groups": [
+    {"id":"skills-analysis","labelKey":"skills.analysis","itemIds":["method-data-preparation","method-descriptive-statistics","method-group-comparison","method-effect-sizes","method-regression-calibration","method-reliability-validity","method-inter-rater","method-error-classification"]},
+    {"id":"skills-research","labelKey":"skills.research","itemIds":["method-surveys-interviews","method-mixed-methods","cap-evidence-communication","cap-reproducibility"]},
+    {"id":"skills-collaboration","labelKey":"skills.collaboration","itemIds":["cap-stakeholder-collaboration","cap-needs-clarification","cap-proposal-development","cap-multilingual-communication","cap-implementation-support"]},
+    {"id":"skills-tools","labelKey":"skills.tools","itemIds":["tool-python","tool-r","tool-pandas","tool-numpy","tool-excel","tool-sql","tool-power-bi","tool-scikit-learn","tool-git","tool-jupyter","tool-vscode","tool-streamlit","tool-pytest","tool-docker"]}
+  ]
+}

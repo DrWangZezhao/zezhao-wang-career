@@ -1,0 +1,22 @@
+{
+  "validationRevision": "2026-09-09-v2",
+  "completedAt": "2026-09-09",
+  "results": [
+    {"check":"canonical references and public evidence boundary","status":"passed","detail":"5 profile configurations, 4 locales, 29 evidence records, 4 case studies, typed dates, stable IDs, and cross-record references validated; private/unresolved evidence is filtered."},
+    {"check":"identity, contacts, source-backed institutions and publication","status":"passed","detail":"Canonical name, public email, LinkedIn, GitHub, Universitat de València, UPV, Stanford, Yunnan Normal University, dissertation, named collaborators, project ID, and one formal publication are represented once."},
+    {"check":"multilingual routes and document metadata","status":"passed","detail":"All 20 professional routes and 20 browser CV routes rendered; locale-specific titles and html language values were verified for English, Spanish, Simplified Chinese, and Finnish."},
+    {"check":"responsive interface","status":"passed","detail":"Browser QA at 1440x1000, 768x1024, and 390x844 showed no horizontal document overflow; profile and language navigation remains scrollable where needed."},
+    {"check":"PDF generation and text validation","status":"passed","detail":"Exactly 20 A4 PDFs generated. Every file has two nonblank pages, uppercase canonical name, selectable text, expected email/LinkedIn/GitHub/project links, matching filenames, no private phone, no unresolved wording, and no duplicate year ranges."},
+    {"check":"PDF visual rendering","status":"passed","detail":"All 40 PDF pages rendered to PNG. Four full contact sheets plus representative full-size English, Spanish, Simplified Chinese, and Finnish pages were reviewed with no clipping, overlap, missing glyphs, or accidental trailing page."},
+    {"check":"code quality and worker build","status":"passed","detail":"TypeScript typecheck, ESLint, canonical-content validation, vinext production build, and 5 rendered-route test suites completed successfully."},
+    {"check":"static export","status":"passed","detail":"Next.js generated 45 static pages, including root, 40 locale/profile/CV routes, not-found, robots, and sitemap, using the GitHub repository base path."},
+    {"check":"SEO and discovery","status":"passed","detail":"Canonical URLs, language alternates, JSON-LD Person schema, Open Graph metadata, sitemap, robots, and semantic headings are present."}
+  ],
+  "outstandingIssues": [
+    "The exact five requested V2 source CV filenames were not found; two earlier CV PDFs were located and audited instead.",
+    "The R² claim is unresolved and intentionally excluded from all public outputs.",
+    "Spanish, Simplified Chinese, and Finnish translations remain complete drafts pending owner or specialist approval.",
+    "Anonymous access to the Evaluation Data Inspector currently redirects to a Streamlit authentication page and should be reconfirmed by the owner.",
+    "GitHub, Pages CMS, and primary public deployment status are recorded separately at release time."
+  ]
+}

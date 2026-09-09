@@ -1,0 +1,12 @@
+{
+  "id":"research-assessment","slug":"research-assessment","nameKey":"profile.research-assessment.name","headlineKey":"profile.research-assessment.headline","summaryKey":"profile.research-assessment.summary",
+  "targetRoleKeys":["role.research.research","role.research.assessment","role.research.measurement","role.research.evaluation"],
+  "experienceIds":["exp-doctoral-research","exp-evalcomplin","exp-stanford-visit","exp-edx-analytics"],
+  "evidencePriorityIds":["ev-doctoral-error-question","ev-doctoral-workflows","ev-doctoral-human-reference","ev-doctoral-review-criteria","ev-evalcomplin-instruments","ev-evalcomplin-fieldwork","ev-evalcomplin-quality","ev-evalcomplin-synthesis","ev-stanford-focus","ev-stanford-communication","ev-edx-analysis","ev-edx-users"],
+  "caseStudyIds":["case-multilingual-ai-speech","case-evalcomplin-validation","case-user-learning-analytics"],
+  "projectIds":["project-evaluation-data-inspector"],"publicationIds":["pub-wang-2024-validation"],"educationIds":["edu-phd","edu-masters","edu-bachelors"],
+  "skillGroupIds":["skills-research","skills-analysis","skills-collaboration"],
+  "toolIds":["tool-r","tool-python","tool-whisper","tool-gpt","tool-excel"],
+  "sectionOrder":["evidence","cases","experience","publications","education","projects","skills","languages"],
+  "cv":{"template":"research-assessment","evidenceLimits":{"exp-doctoral-research":4,"exp-evalcomplin":4,"exp-stanford-visit":2,"exp-edx-analytics":2},"projectEvidenceLimit":1}
+}

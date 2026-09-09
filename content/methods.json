@@ -1,0 +1,12 @@
+[
+  {"id":"method-data-preparation","labelKey":"method.dataPreparation","sourceRefs":["S1","S2","S3"]},
+  {"id":"method-descriptive-statistics","labelKey":"method.descriptiveStatistics","sourceRefs":["S1","S2","S3"]},
+  {"id":"method-group-comparison","labelKey":"method.groupComparison","sourceRefs":["S1","S2","S3"]},
+  {"id":"method-effect-sizes","labelKey":"method.effectSizes","sourceRefs":["S1","S2","S3"]},
+  {"id":"method-regression-calibration","labelKey":"method.regressionCalibration","sourceRefs":["S1","S2","S3"]},
+  {"id":"method-reliability-validity","labelKey":"method.reliabilityValidity","sourceRefs":["S1","S2","S3"]},
+  {"id":"method-inter-rater","labelKey":"method.interRater","sourceRefs":["S1","S2","S3"]},
+  {"id":"method-error-classification","labelKey":"method.errorClassification","sourceRefs":["S1","S2","S3"]},
+  {"id":"method-surveys-interviews","labelKey":"method.surveysInterviews","sourceRefs":["S1","S2","S3"]},
+  {"id":"method-mixed-methods","labelKey":"method.mixedMethods","sourceRefs":["S1","S2","S3"]}
+]

@@ -1,0 +1,12 @@
+{
+  "id":"data-people-analytics","slug":"data-people-analytics","nameKey":"profile.data-people-analytics.name","headlineKey":"profile.data-people-analytics.headline","summaryKey":"profile.data-people-analytics.summary",
+  "targetRoleKeys":["role.data.dataAnalyst","role.data.productInsights","role.data.evaluationAnalyst","role.data.researchAnalyst"],
+  "experienceIds":["exp-edx-analytics","exp-doctoral-research","exp-evalcomplin","exp-stanford-visit"],
+  "evidencePriorityIds":["ev-edx-users","ev-edx-analysis","ev-edx-recommendations","ev-edx-collaboration","ev-doctoral-workflows","ev-doctoral-human-reference","ev-doctoral-model-comparison","ev-inspector-analysis","ev-inspector-input","ev-inspector-architecture","ev-evalcomplin-quality","ev-evalcomplin-synthesis","ev-stanford-focus"],
+  "caseStudyIds":["case-user-learning-analytics","case-evaluation-data-inspector","case-multilingual-ai-speech"],
+  "projectIds":["project-evaluation-data-inspector"],"publicationIds":[],"educationIds":["edu-phd","edu-masters","edu-bachelors"],
+  "skillGroupIds":["skills-analysis","skills-research","skills-collaboration"],
+  "toolIds":["tool-python","tool-r","tool-pandas","tool-numpy","tool-excel","tool-sql","tool-power-bi","tool-streamlit"],
+  "sectionOrder":["evidence","cases","experience","projects","skills","education","languages"],
+  "cv":{"template":"data-insights","evidenceLimits":{"exp-edx-analytics":4,"exp-doctoral-research":3,"exp-evalcomplin":2,"exp-stanford-visit":1},"projectEvidenceLimit":3}
+}

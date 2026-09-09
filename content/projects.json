@@ -1,0 +1,15 @@
+[
+  {
+    "id": "project-evaluation-data-inspector",
+    "type": "independent-portfolio-project",
+    "name": "Evaluation Data Inspector",
+    "titleKey": "project.inspector.title",
+    "summaryKey": "project.inspector.summary",
+    "start": {"year": 2026, "month": 9, "day": null, "precision": "month"},
+    "end": {"year": 2026, "month": 9, "day": null, "precision": "month"},
+    "url": "https://evaluation-data-inspector.streamlit.app/",
+    "repositoryUrl": null,
+    "evidenceIds": ["ev-inspector-input", "ev-inspector-analysis", "ev-inspector-architecture", "ev-inspector-engineering", "ev-inspector-deployment"],
+    "sourceRefs": ["S1", "S2", "APP-SOURCE"]
+  }
+]

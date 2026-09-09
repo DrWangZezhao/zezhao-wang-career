@@ -1,0 +1,10 @@
+[
+  {"id":"cap-evidence-communication","labelKey":"capability.evidenceCommunication","sourceRefs":["S1","S2","S3"]},
+  {"id":"cap-reproducibility","labelKey":"capability.reproducibility","sourceRefs":["S1","S2","S3"]},
+  {"id":"cap-stakeholder-collaboration","labelKey":"capability.stakeholderCollaboration","sourceRefs":["S1","S2","S3"]},
+  {"id":"cap-needs-clarification","labelKey":"capability.needsClarification","sourceRefs":["S1","S3"]},
+  {"id":"cap-proposal-development","labelKey":"capability.proposalDevelopment","sourceRefs":["S1","S3"]},
+  {"id":"cap-multilingual-communication","labelKey":"capability.multilingualCommunication","sourceRefs":["S1","S2","S3"]},
+  {"id":"cap-implementation-support","labelKey":"capability.implementationSupport","sourceRefs":["S1","S2","S3"]},
+  {"id":"cap-full-stack-foundation","labelKey":"capability.fullStackFoundation","qualification":"foundational","sourceRefs":["S1","S2"]}
+]

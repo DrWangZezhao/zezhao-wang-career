@@ -1,0 +1,18 @@
+[
+  {"id":"tool-python","label":"Python","proficiency":"practical","evidenceIds":["ev-doctoral-workflows","ev-inspector-architecture"],"sourceRefs":["S1","S2","S3","S4"]},
+  {"id":"tool-r","label":"R","proficiency":"research","evidenceIds":["ev-doctoral-workflows"],"sourceRefs":["S1","S2","S3","S4"]},
+  {"id":"tool-whisper","label":"Whisper ASR","proficiency":"research","evidenceIds":["ev-doctoral-workflows","ev-doctoral-error-question"],"sourceRefs":["S4"]},
+  {"id":"tool-gpt","label":"GPT-supported analysis","proficiency":"research","evidenceIds":["ev-doctoral-workflows"],"sourceRefs":["S4"]},
+  {"id":"tool-pandas","label":"pandas","proficiency":"practical","evidenceIds":["ev-inspector-analysis"],"sourceRefs":["S1","S2","S3"]},
+  {"id":"tool-numpy","label":"NumPy","proficiency":"practical","evidenceIds":["ev-inspector-analysis"],"sourceRefs":["S1","S2","S3"]},
+  {"id":"tool-excel","label":"Excel","proficiency":"working","evidenceIds":[],"sourceRefs":["S1","S2","S3"]},
+  {"id":"tool-sql","label":"SQL","proficiency":"working","evidenceIds":[],"sourceRefs":["S1","S2","S3"]},
+  {"id":"tool-power-bi","label":"Power BI","proficiency":"working","evidenceIds":[],"sourceRefs":["S1","S2","S3"]},
+  {"id":"tool-scikit-learn","label":"scikit-learn","proficiency":"working","evidenceIds":[],"sourceRefs":["S1","S2","S3"]},
+  {"id":"tool-git","label":"Git / GitHub","proficiency":"practical","evidenceIds":["ev-inspector-engineering"],"sourceRefs":["S1","S2","S3"]},
+  {"id":"tool-jupyter","label":"Jupyter","proficiency":"working","evidenceIds":[],"sourceRefs":["S1","S2","S3"]},
+  {"id":"tool-vscode","label":"VS Code","proficiency":"working","evidenceIds":[],"sourceRefs":["S1","S2","S3"]},
+  {"id":"tool-streamlit","label":"Streamlit","proficiency":"practical","evidenceIds":["ev-inspector-architecture"],"sourceRefs":["S1","S2"]},
+  {"id":"tool-pytest","label":"pytest","proficiency":"practical","evidenceIds":["ev-inspector-engineering"],"sourceRefs":["S1","S2"]},
+  {"id":"tool-docker","label":"Docker","proficiency":"configuration","evidenceIds":["ev-inspector-engineering"],"sourceRefs":["S1","S2"]}
+]

@@ -1,0 +1,167 @@
+{
+  "contentRevision": "2026-09-09-v2",
+  "templateRevision": "cv-template-v2",
+  "contentHash": "58522e8431af08922f6f5ace26f59b32ba1548b1e7b693dc6e0b6182f6cae722",
+  "files": [
+    {
+      "filename": "Zezhao_Wang_Overview_CV_EN.pdf",
+      "profileId": "general",
+      "locale": "en",
+      "documentLanguage": "en",
+      "template": "overview",
+      "sha256": "0c3716988cc1839f2b4a35ad2d72dde03b4a88500c18a7709686e5e6a1694430"
+    },
+    {
+      "filename": "Zezhao_Wang_Overview_CV_ES.pdf",
+      "profileId": "general",
+      "locale": "es",
+      "documentLanguage": "es",
+      "template": "overview",
+      "sha256": "af5821ac48933f27e218049478d9925c29a780b410f1c6ca233efb742880a96d"
+    },
+    {
+      "filename": "Zezhao_Wang_Overview_CV_ZH.pdf",
+      "profileId": "general",
+      "locale": "zh",
+      "documentLanguage": "zh-Hans",
+      "template": "overview",
+      "sha256": "defd556e98c98760dbde21352353b7add871e4ab54759e0b1a97f4d8810726b6"
+    },
+    {
+      "filename": "Zezhao_Wang_Overview_CV_FI.pdf",
+      "profileId": "general",
+      "locale": "fi",
+      "documentLanguage": "fi",
+      "template": "overview",
+      "sha256": "f53ffba6e95ac72c89c541c5d180a8b373ab60b84a17c7f14c95709318a31f34"
+    },
+    {
+      "filename": "Zezhao_Wang_AI_Evaluation_Data_Quality_CV_EN.pdf",
+      "profileId": "ai-evaluation",
+      "locale": "en",
+      "documentLanguage": "en",
+      "template": "ai-quality",
+      "sha256": "7be7e30d04616cda75e5666185e9ddb1b010a10b2713c2455f48acae4ece567e"
+    },
+    {
+      "filename": "Zezhao_Wang_AI_Evaluation_Data_Quality_CV_ES.pdf",
+      "profileId": "ai-evaluation",
+      "locale": "es",
+      "documentLanguage": "es",
+      "template": "ai-quality",
+      "sha256": "257b703e64e3e0213ad050d4381aae2af6059e48c81997fd42cca25b9457cf6c"
+    },
+    {
+      "filename": "Zezhao_Wang_AI_Evaluation_Data_Quality_CV_ZH.pdf",
+      "profileId": "ai-evaluation",
+      "locale": "zh",
+      "documentLanguage": "zh-Hans",
+      "template": "ai-quality",
+      "sha256": "9be1589d01d3680c4a6327d0c93ae296a23c0b44522bb574b0a20d11647276a3"
+    },
+    {
+      "filename": "Zezhao_Wang_AI_Evaluation_Data_Quality_CV_FI.pdf",
+      "profileId": "ai-evaluation",
+      "locale": "fi",
+      "documentLanguage": "fi",
+      "template": "ai-quality",
+      "sha256": "670c694141cc438c0a348b61925e0c3de3eef9e6d6bface3783de31b722421d6"
+    },
+    {
+      "filename": "Zezhao_Wang_Data_User_Insights_CV_EN.pdf",
+      "profileId": "data-people-analytics",
+      "locale": "en",
+      "documentLanguage": "en",
+      "template": "data-insights",
+      "sha256": "9929b01e3b836b80217e4941663908469075f308cc763a4502efb8ffa3b6a12c"
+    },
+    {
+      "filename": "Zezhao_Wang_Data_User_Insights_CV_ES.pdf",
+      "profileId": "data-people-analytics",
+      "locale": "es",
+      "documentLanguage": "es",
+      "template": "data-insights",
+      "sha256": "eeaa18ff3893d2cd65b80c4fe1f301c926fee0bd61f5cc4f9463f78e563fc520"
+    },
+    {
+      "filename": "Zezhao_Wang_Data_User_Insights_CV_ZH.pdf",
+      "profileId": "data-people-analytics",
+      "locale": "zh",
+      "documentLanguage": "zh-Hans",
+      "template": "data-insights",
+      "sha256": "fecc1869597b0370b1f4352562a61b949fc60bbf2d79be5ccb507d159a98dca3"
+    },
+    {
+      "filename": "Zezhao_Wang_Data_User_Insights_CV_FI.pdf",
+      "profileId": "data-people-analytics",
+      "locale": "fi",
+      "documentLanguage": "fi",
+      "template": "data-insights",
+      "sha256": "148c855914a2ea661bd3d2076c9e594b41a363de4d1b8473ff63e8d400eb072f"
+    },
+    {
+      "filename": "Zezhao_Wang_Customer_Insights_Growth_Support_CV_EN.pdf",
+      "profileId": "customer-business-growth",
+      "locale": "en",
+      "documentLanguage": "en",
+      "template": "customer-insights",
+      "sha256": "0d2818e103599d9dccac81787e672d457be294250b5559acc0591c8ff823ef07"
+    },
+    {
+      "filename": "Zezhao_Wang_Customer_Insights_Growth_Support_CV_ES.pdf",
+      "profileId": "customer-business-growth",
+      "locale": "es",
+      "documentLanguage": "es",
+      "template": "customer-insights",
+      "sha256": "fbfe6542b0f532dc49c078f670ff80362196e60c48b20fbfa238ba304d0cb19d"
+    },
+    {
+      "filename": "Zezhao_Wang_Customer_Insights_Growth_Support_CV_ZH.pdf",
+      "profileId": "customer-business-growth",
+      "locale": "zh",
+      "documentLanguage": "zh-Hans",
+      "template": "customer-insights",
+      "sha256": "57184209d1a3bf91c4eb3e07e08a0a75afe8e25c8c03a4a50043b59516967520"
+    },
+    {
+      "filename": "Zezhao_Wang_Customer_Insights_Growth_Support_CV_FI.pdf",
+      "profileId": "customer-business-growth",
+      "locale": "fi",
+      "documentLanguage": "fi",
+      "template": "customer-insights",
+      "sha256": "ac5c60b00cee994d7148427c3f1f6a8051591644437089168319f83ecb7165c2"
+    },
+    {
+      "filename": "Zezhao_Wang_Research_Assessment_CV_EN.pdf",
+      "profileId": "research-assessment",
+      "locale": "en",
+      "documentLanguage": "en",
+      "template": "research-assessment",
+      "sha256": "178c91dfae111dde618fc014da41a6d1c19668887aa3006a87eda47eda985e63"
+    },
+    {
+      "filename": "Zezhao_Wang_Research_Assessment_CV_ES.pdf",
+      "profileId": "research-assessment",
+      "locale": "es",
+      "documentLanguage": "es",
+      "template": "research-assessment",
+      "sha256": "607f0bc9cc30f49bdde4f926da2ae00c88cdac5616255da2db62931fda5b10ec"
+    },
+    {
+      "filename": "Zezhao_Wang_Research_Assessment_CV_ZH.pdf",
+      "profileId": "research-assessment",
+      "locale": "zh",
+      "documentLanguage": "zh-Hans",
+      "template": "research-assessment",
+      "sha256": "ab33aae8f45878c77c013b9dee0a2e67ac65903431d3e62af49b58b0eb42c7a0"
+    },
+    {
+      "filename": "Zezhao_Wang_Research_Assessment_CV_FI.pdf",
+      "profileId": "research-assessment",
+      "locale": "fi",
+      "documentLanguage": "fi",
+      "template": "research-assessment",
+      "sha256": "f21a4569b2130641c1003d50f0ac6d5dc25ff7b3673355b798eaa2477e88b0f1"
+    }
+  ]
+}

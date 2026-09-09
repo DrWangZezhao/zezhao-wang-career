@@ -1,0 +1,12 @@
+{
+  "id":"customer-business-growth","slug":"customer-business-growth","nameKey":"profile.customer-business-growth.name","headlineKey":"profile.customer-business-growth.headline","summaryKey":"profile.customer-business-growth.summary",
+  "targetRoleKeys":["role.customer.customerSuccess","role.customer.customerInsights","role.customer.partnershipSupport","role.customer.growthSupport"],
+  "experienceIds":["exp-independent-discovery","exp-edx-analytics","exp-language-support-practicum","exp-doctoral-research","exp-evalcomplin"],
+  "evidencePriorityIds":["ev-discovery-discussions","ev-discovery-needs","ev-discovery-proposals","ev-edx-users","ev-edx-analysis","ev-edx-recommendations","ev-practicum-support","ev-practicum-communication","ev-doctoral-review-criteria","ev-doctoral-delivery","ev-evalcomplin-fieldwork","ev-evalcomplin-synthesis","ev-inspector-analysis"],
+  "caseStudyIds":["case-user-learning-analytics","case-evaluation-data-inspector","case-evalcomplin-validation"],
+  "projectIds":["project-evaluation-data-inspector"],"publicationIds":[],"educationIds":["edu-phd","edu-masters","edu-bachelors"],
+  "skillGroupIds":["skills-collaboration","skills-analysis","skills-research"],
+  "toolIds":["tool-python","tool-r","tool-excel","tool-streamlit","tool-power-bi","tool-sql"],
+  "sectionOrder":["evidence","experience","cases","skills","projects","education","languages"],
+  "cv":{"template":"customer-insights","evidenceLimits":{"exp-independent-discovery":3,"exp-edx-analytics":3,"exp-language-support-practicum":2,"exp-doctoral-research":2,"exp-evalcomplin":1},"projectEvidenceLimit":2}
+}

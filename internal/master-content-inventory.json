@@ -1,0 +1,13 @@
+{
+  "revision":"2026-09-09-v2",
+  "canonicalCollections":["identity","contacts","organisations","education","dissertations","experiences","collaborations","evidence","projects","case-studies","publications","manuscripts","languages","methods","capabilities","tools","skills"],
+  "publicEvidenceSummary":[
+    {"entity":"exp-edx-analytics","evidenceCount":4,"primarySignals":["20,000+ users","progression and disengagement","UPV collaboration"]},
+    {"entity":"exp-doctoral-research","evidenceCount":6,"primarySignals":["Whisper ASR","GPT-supported analysis","human reference","error preservation"]},
+    {"entity":"exp-evalcomplin","evidenceCount":4,"primarySignals":["PID2021-128745NB-I00","multilingual assessment","teacher training","reliability and validity"]},
+    {"entity":"exp-stanford-visit","evidenceCount":2,"primarySignals":["Guillermo Solano-Flores","cross-cultural validity and fairness"]},
+    {"entity":"project-evaluation-data-inspector","evidenceCount":5,"primarySignals":["CSV quality diagnostics","group comparison","pytest","deployment documentation"]}
+  ],
+  "privateOrOmitted":["phone number","contextless R² value","incomplete manuscript metadata","source PDFs and attachments","provenance and conflict records"],
+  "presentationRule":"One canonical fact may be reordered, shortened, or contextualised by profile and language, but its meaning and metric remain unchanged."
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "collab-edx-upv",
+    "experienceId": "exp-edx-analytics",
+    "organisationIds": ["org-universitat-valencia", "org-upv", "org-edx-platform"],
+    "descriptionKey": "collaboration.edx.description",
+    "namedCollaborators": ["Professor Ana Gimeno-Sanz"],
+    "sourceRefs": ["S4"]
+  },
+  {
+    "id": "collab-stanford-solano",
+    "experienceId": "exp-stanford-visit",
+    "organisationIds": ["org-stanford-gse"],
+    "descriptionKey": "collaboration.stanford.description",
+    "namedCollaborators": ["Professor Guillermo Solano-Flores"],
+    "sourceRefs": ["S4"]
+  }
+]

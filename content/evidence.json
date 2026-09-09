@@ -1,0 +1,46 @@
+[
+  {
+    "id":"ev-edx-users","entityId":"exp-edx-analytics","kind":"measured-result","statementKey":"evidence.edx.users",
+    "metric":{"value":20000,"operator":">=","displayOperator":"+","unit":"users","population":"English-language MOOC users","period":"2025-2026","denominator":null},
+    "sourceRefs":[{"sourceId":"S4","locator":"p. 1"}],"status":"source_supported","visibility":"public"
+  },
+  {"id":"ev-edx-analysis","entityId":"exp-edx-analytics","kind":"activity","statementKey":"evidence.edx.analysis","sourceRefs":[{"sourceId":"S4","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-edx-recommendations","entityId":"exp-edx-analytics","kind":"output","statementKey":"evidence.edx.recommendations","sourceRefs":[{"sourceId":"S4","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-edx-collaboration","entityId":"exp-edx-analytics","kind":"activity","statementKey":"evidence.edx.collaboration","sourceRefs":[{"sourceId":"S4","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+
+  {"id":"ev-doctoral-workflows","entityId":"exp-doctoral-research","kind":"output","statementKey":"evidence.doctoral.workflows","sourceRefs":[{"sourceId":"S4","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-doctoral-error-question","entityId":"exp-doctoral-research","kind":"activity","statementKey":"evidence.doctoral.errorQuestion","sourceRefs":[{"sourceId":"S4","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-doctoral-model-comparison","entityId":"exp-doctoral-research","kind":"activity","statementKey":"evidence.doctoral.comparison","sourceRefs":[{"sourceId":"S4","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-doctoral-human-reference","entityId":"exp-doctoral-research","kind":"activity","statementKey":"evidence.doctoral.humanReference","sourceRefs":[{"sourceId":"S4","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-doctoral-review-criteria","entityId":"exp-doctoral-research","kind":"interpretation","statementKey":"evidence.doctoral.criteria","sourceRefs":[{"sourceId":"S4","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-doctoral-delivery","entityId":"exp-doctoral-research","kind":"output","statementKey":"evidence.doctoral.delivery","sourceRefs":[{"sourceId":"S1","locator":"p. 2"},{"sourceId":"S4","locator":"pp. 1-2"}],"status":"source_supported","visibility":"public"},
+  {
+    "id":"ev-r2-calibration","entityId":"exp-doctoral-research","kind":"measured-result","statementKey":"evidence.doctoral.r2",
+    "metric":{"value":0.919,"operator":"=","displayOperator":"=","unit":"R²","population":null,"period":null,"denominator":null},
+    "interpretationLimits":"Dependent measure, sample, and evaluation setting remain unresolved; retain internally only.",
+    "sourceRefs":[{"sourceId":"S1","locator":"p. 2"},{"sourceId":"S2","locator":"p. 1"},{"sourceId":"S3","locator":"p. 1"}],"status":"unresolved","visibility":"private"
+  },
+
+  {"id":"ev-evalcomplin-instruments","entityId":"exp-evalcomplin","kind":"activity","statementKey":"evidence.evalcomplin.instruments","sourceRefs":[{"sourceId":"S4","locator":"p. 2"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-evalcomplin-fieldwork","entityId":"exp-evalcomplin","kind":"activity","statementKey":"evidence.evalcomplin.fieldwork","sourceRefs":[{"sourceId":"S4","locator":"p. 2"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-evalcomplin-quality","entityId":"exp-evalcomplin","kind":"activity","statementKey":"evidence.evalcomplin.quality","sourceRefs":[{"sourceId":"S4","locator":"p. 2"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-evalcomplin-synthesis","entityId":"exp-evalcomplin","kind":"output","statementKey":"evidence.evalcomplin.synthesis","sourceRefs":[{"sourceId":"S4","locator":"p. 2"}],"status":"source_supported","visibility":"public"},
+
+  {"id":"ev-stanford-focus","entityId":"exp-stanford-visit","kind":"activity","statementKey":"evidence.stanford.focus","sourceRefs":[{"sourceId":"S4","locator":"p. 2"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-stanford-communication","entityId":"exp-stanford-visit","kind":"capability","statementKey":"evidence.stanford.communication","sourceRefs":[{"sourceId":"S4","locator":"p. 2"}],"status":"source_supported","visibility":"public"},
+
+  {"id":"ev-discovery-discussions","entityId":"exp-independent-discovery","kind":"activity","statementKey":"evidence.discovery.discussions","sourceRefs":[{"sourceId":"S1","locator":"p. 2"},{"sourceId":"S3","locator":"p. 2"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-discovery-needs","entityId":"exp-independent-discovery","kind":"activity","statementKey":"evidence.discovery.needs","sourceRefs":[{"sourceId":"S1","locator":"p. 2"},{"sourceId":"S3","locator":"p. 2"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-discovery-proposals","entityId":"exp-independent-discovery","kind":"output","statementKey":"evidence.discovery.proposals","sourceRefs":[{"sourceId":"S1","locator":"p. 2"},{"sourceId":"S3","locator":"p. 2"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-discovery-multilingual","entityId":"exp-independent-discovery","kind":"capability","statementKey":"evidence.discovery.multilingual","sourceRefs":[{"sourceId":"S1","locator":"p. 2"},{"sourceId":"S3","locator":"p. 2"}],"status":"source_supported","visibility":"public"},
+
+  {"id":"ev-practicum-support","entityId":"exp-language-support-practicum","kind":"activity","statementKey":"evidence.practicum.support","sourceRefs":[{"sourceId":"S5","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-practicum-observation","entityId":"exp-language-support-practicum","kind":"activity","statementKey":"evidence.practicum.observation","sourceRefs":[{"sourceId":"S5","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-practicum-communication","entityId":"exp-language-support-practicum","kind":"capability","statementKey":"evidence.practicum.communication","sourceRefs":[{"sourceId":"S5","locator":"p. 1"}],"status":"source_supported","visibility":"public"},
+
+  {"id":"ev-inspector-input","entityId":"project-evaluation-data-inspector","kind":"output","statementKey":"evidence.inspector.input","sourceRefs":[{"sourceId":"S1","locator":"p. 1"},{"sourceId":"APP-SOURCE","locator":"README"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-inspector-analysis","entityId":"project-evaluation-data-inspector","kind":"output","statementKey":"evidence.inspector.analysis","sourceRefs":[{"sourceId":"S1","locator":"p. 1"},{"sourceId":"APP-SOURCE","locator":"README"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-inspector-architecture","entityId":"project-evaluation-data-inspector","kind":"output","statementKey":"evidence.inspector.architecture","sourceRefs":[{"sourceId":"S1","locator":"p. 1"},{"sourceId":"APP-SOURCE","locator":"README"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-inspector-engineering","entityId":"project-evaluation-data-inspector","kind":"output","statementKey":"evidence.inspector.engineering","sourceRefs":[{"sourceId":"S1","locator":"p. 1"},{"sourceId":"APP-SOURCE","locator":"README"}],"status":"source_supported","visibility":"public"},
+  {"id":"ev-inspector-deployment","entityId":"project-evaluation-data-inspector","kind":"output","statementKey":"evidence.inspector.deployment","sourceRefs":[{"sourceId":"APP-SOURCE","locator":"README and DEPLOYMENT.md"}],"status":"source_supported","visibility":"public"}
+]
