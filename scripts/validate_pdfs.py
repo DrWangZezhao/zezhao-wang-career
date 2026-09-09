@@ -29,7 +29,7 @@ for entry in manifest["files"]:
             link_targets.append(str(action.get("/URI")))
     assert any(target == "mailto:zezwang@alumni.uv.es" for target in link_targets), f"Missing email link: {path.name}"
     assert any("linkedin.com/in/zezhao-wang" in target for target in link_targets), f"Missing LinkedIn link: {path.name}"
-    assert any("github.com/zedwong1998-afk" in target for target in link_targets), f"Missing GitHub link: {path.name}"
+    assert any("github.com/DrWangZezhao" in target for target in link_targets), f"Missing GitHub link: {path.name}"
     assert any("evaluation-data-inspector.streamlit.app" in target for target in link_targets), f"Missing project link: {path.name}"
 
     with pdfplumber.open(path) as pdf:

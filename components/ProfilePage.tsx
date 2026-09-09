@@ -20,7 +20,7 @@ export function ProfilePage({ view }: { view: ResolvedProfile }) {
     name: view.identity.displayName,
     honorificPrefix: view.identity.professionalPrefix,
     jobTitle: view.identity.professionalTitle,
-    url: `https://zezhao-wang-career.zedwang.chatgpt.site/${view.locale}${pathSuffix}`,
+    url: `https://drwangzezhao.github.io/zezhao-wang-career/${view.locale}${pathSuffix}`,
     email: `mailto:${view.identity.email}`,
     address: { "@type": "PostalAddress", addressLocality: "Helsinki", addressCountry: "FI" },
     sameAs: view.identity.links.map((link) => link.url),

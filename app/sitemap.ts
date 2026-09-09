@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
 
-const base = "https://zezhao-wang-career.zedwang.chatgpt.site";
+const base = "https://drwangzezhao.github.io/zezhao-wang-career";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ["en", "es", "zh", "fi"];

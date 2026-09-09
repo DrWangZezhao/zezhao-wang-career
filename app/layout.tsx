@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://zezhao-wang-career.zedwang.chatgpt.site"),
+  metadataBase: new URL("https://drwangzezhao.github.io/zezhao-wang-career/"),
   title: "ZEZHAO WANG · Research & Data Analyst",
   description: "AI evaluation, user and customer insights, multilingual measurement, and applied data analysis from Helsinki.",
   openGraph: {

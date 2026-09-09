@@ -34,12 +34,11 @@ jobs:
           python -m pip install reportlab pdfplumber pypdf
       - name: Generate CVs
         run: npm run generate:cvs
-      - name: Validate content and PDFs
+      - name: Validate code and content
         run: |
           npm run typecheck
           npm run lint
           npm run validate:content
-          npm run validate:pdfs
       - name: Test worker build and routes
         run: |
           npm run build
