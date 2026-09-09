@@ -1,0 +1,27 @@
+name: Import complete V2 source
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download verified source archive
+        run: curl -fSL https://zezhao-wang-career.zedwang.chatgpt.site/downloads/Zezhao_Wang_Career_Website_V2_Complete_Source.zip -o /tmp/source.zip
+      - name: Replace bootstrap repository with full source
+        run: |
+          unzip -o /tmp/source.zip
+          rm -f .github/workflows/bootstrap-source.yml
+      - name: Commit full source
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: import complete career website V2"
+          git push
