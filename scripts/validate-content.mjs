@@ -29,7 +29,7 @@ const publicEmail = data.contacts.filter((item) => item.public && item.type === 
 assert.equal(publicEmail.length, 1, "Exactly one public email is required");
 assert.equal(publicEmail[0].value, expectedEmail, "Canonical email changed");
 assert.equal(data.contacts.find((item) => item.id === "link-linkedin")?.value, "https://www.linkedin.com/in/zezhao-wang-phd-068519170/");
-assert.equal(data.contacts.find((item) => item.id === "link-github")?.value, "https://github.com/zedwong1998-afk");
+assert.equal(data.contacts.find((item) => item.id === "link-github")?.value, "https://github.com/DrWangZezhao");
 assert(!data.contacts.some((item) => item.public && item.type === "phone"), "Private phone exposed");
 
 const orgIds = ids(data.organisations), evidenceIds = ids(data.evidence), experienceIds = ids(data.experiences), projectIds = ids(data.projects);
