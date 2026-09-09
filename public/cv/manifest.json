@@ -1,7 +1,7 @@
 {
   "contentRevision": "2026-09-09-v2",
   "templateRevision": "cv-template-v2",
-  "contentHash": "58522e8431af08922f6f5ace26f59b32ba1548b1e7b693dc6e0b6182f6cae722",
+  "contentHash": "3f24e00d648964368f4c2db216f43c1c850eba47d2e061429b0df4dda3513d15",
   "files": [
     {
       "filename": "Zezhao_Wang_Overview_CV_EN.pdf",
@@ -9,7 +9,7 @@
       "locale": "en",
       "documentLanguage": "en",
       "template": "overview",
-      "sha256": "0c3716988cc1839f2b4a35ad2d72dde03b4a88500c18a7709686e5e6a1694430"
+      "sha256": "5128f23c6e73167a8d2fc013dc281c79c2d9a03ed6402768f83e87dc54a252c5"
     },
     {
       "filename": "Zezhao_Wang_Overview_CV_ES.pdf",
@@ -17,7 +17,7 @@
       "locale": "es",
       "documentLanguage": "es",
       "template": "overview",
-      "sha256": "af5821ac48933f27e218049478d9925c29a780b410f1c6ca233efb742880a96d"
+      "sha256": "749290a6a0a084d55176ac86c8f91aafc2f49acb35988d32f793b24290b687a0"
     },
     {
       "filename": "Zezhao_Wang_Overview_CV_ZH.pdf",
@@ -25,7 +25,7 @@
       "locale": "zh",
       "documentLanguage": "zh-Hans",
       "template": "overview",
-      "sha256": "defd556e98c98760dbde21352353b7add871e4ab54759e0b1a97f4d8810726b6"
+      "sha256": "d88f804484df537fae00b3c1895d83771e83640ead29e6419777b9615c9809ce"
     },
     {
       "filename": "Zezhao_Wang_Overview_CV_FI.pdf",
@@ -33,7 +33,7 @@
       "locale": "fi",
       "documentLanguage": "fi",
       "template": "overview",
-      "sha256": "f53ffba6e95ac72c89c541c5d180a8b373ab60b84a17c7f14c95709318a31f34"
+      "sha256": "7bd24e54d6cbeaad34db49175c7e459722ee47e91cb420d343359b62ba8c26e9"
     },
     {
       "filename": "Zezhao_Wang_AI_Evaluation_Data_Quality_CV_EN.pdf",
@@ -41,7 +41,7 @@
       "locale": "en",
       "documentLanguage": "en",
       "template": "ai-quality",
-      "sha256": "7be7e30d04616cda75e5666185e9ddb1b010a10b2713c2455f48acae4ece567e"
+      "sha256": "8a576e5cd7e9610ac2ceab0d728028cb34ce978a4b4db12ffcaadfea52adfe43"
     },
     {
       "filename": "Zezhao_Wang_AI_Evaluation_Data_Quality_CV_ES.pdf",
@@ -49,7 +49,7 @@
       "locale": "es",
       "documentLanguage": "es",
       "template": "ai-quality",
-      "sha256": "257b703e64e3e0213ad050d4381aae2af6059e48c81997fd42cca25b9457cf6c"
+      "sha256": "75cf4ef1f840873b2724abcac8f119a2c8c70227a4669584be1b386f7457040b"
     },
     {
       "filename": "Zezhao_Wang_AI_Evaluation_Data_Quality_CV_ZH.pdf",
@@ -57,7 +57,7 @@
       "locale": "zh",
       "documentLanguage": "zh-Hans",
       "template": "ai-quality",
-      "sha256": "9be1589d01d3680c4a6327d0c93ae296a23c0b44522bb574b0a20d11647276a3"
+      "sha256": "2db6af0b6267d375390810cb77b6b6bfe41a5b2913416bd8e864239bfa01acdf"
     },
     {
       "filename": "Zezhao_Wang_AI_Evaluation_Data_Quality_CV_FI.pdf",
@@ -65,7 +65,7 @@
       "locale": "fi",
       "documentLanguage": "fi",
       "template": "ai-quality",
-      "sha256": "670c694141cc438c0a348b61925e0c3de3eef9e6d6bface3783de31b722421d6"
+      "sha256": "c3d93bc0fd2f2db3519f9f77f3916d16241662d863a9adf457afa1af84b6b44e"
     },
     {
       "filename": "Zezhao_Wang_Data_User_Insights_CV_EN.pdf",
@@ -73,7 +73,7 @@
       "locale": "en",
       "documentLanguage": "en",
       "template": "data-insights",
-      "sha256": "9929b01e3b836b80217e4941663908469075f308cc763a4502efb8ffa3b6a12c"
+      "sha256": "6a232e60b45ab106f6128594643de7ed1afe17d8a04fb046d24a5149d157e7e7"
     },
     {
       "filename": "Zezhao_Wang_Data_User_Insights_CV_ES.pdf",
@@ -81,7 +81,7 @@
       "locale": "es",
       "documentLanguage": "es",
       "template": "data-insights",
-      "sha256": "eeaa18ff3893d2cd65b80c4fe1f301c926fee0bd61f5cc4f9463f78e563fc520"
+      "sha256": "681e10e35057ea07a0d591a01d0e3e1b3c64fd0c719cc27efa9023b9a9b0ce53"
     },
     {
       "filename": "Zezhao_Wang_Data_User_Insights_CV_ZH.pdf",
@@ -89,7 +89,7 @@
       "locale": "zh",
       "documentLanguage": "zh-Hans",
       "template": "data-insights",
-      "sha256": "fecc1869597b0370b1f4352562a61b949fc60bbf2d79be5ccb507d159a98dca3"
+      "sha256": "2cf198951862faf8701137a5af16136ce8cb67c77e15dca32f23d92d73c6e477"
     },
     {
       "filename": "Zezhao_Wang_Data_User_Insights_CV_FI.pdf",
@@ -97,7 +97,7 @@
       "locale": "fi",
       "documentLanguage": "fi",
       "template": "data-insights",
-      "sha256": "148c855914a2ea661bd3d2076c9e594b41a363de4d1b8473ff63e8d400eb072f"
+      "sha256": "a130f2caa92be42cfeb1bb3c580b6fdf6ce203f7d6797d2fbe35f0ec2fd3ed59"
     },
     {
       "filename": "Zezhao_Wang_Customer_Insights_Growth_Support_CV_EN.pdf",
@@ -105,7 +105,7 @@
       "locale": "en",
       "documentLanguage": "en",
       "template": "customer-insights",
-      "sha256": "0d2818e103599d9dccac81787e672d457be294250b5559acc0591c8ff823ef07"
+      "sha256": "2b8a679b7f9e6105764583c83339a15f44cdef62489f8737cd188794e3e621ec"
     },
     {
       "filename": "Zezhao_Wang_Customer_Insights_Growth_Support_CV_ES.pdf",
@@ -113,7 +113,7 @@
       "locale": "es",
       "documentLanguage": "es",
       "template": "customer-insights",
-      "sha256": "fbfe6542b0f532dc49c078f670ff80362196e60c48b20fbfa238ba304d0cb19d"
+      "sha256": "059d58fff58ef700215fb81385c5fed358a911616f83e3d3b967e90b2938a3ff"
     },
     {
       "filename": "Zezhao_Wang_Customer_Insights_Growth_Support_CV_ZH.pdf",
@@ -121,7 +121,7 @@
       "locale": "zh",
       "documentLanguage": "zh-Hans",
       "template": "customer-insights",
-      "sha256": "57184209d1a3bf91c4eb3e07e08a0a75afe8e25c8c03a4a50043b59516967520"
+      "sha256": "0125a02e0036df25321368d17a650d7ff02a365deb2a15d902b41885a2d0155a"
     },
     {
       "filename": "Zezhao_Wang_Customer_Insights_Growth_Support_CV_FI.pdf",
@@ -129,7 +129,7 @@
       "locale": "fi",
       "documentLanguage": "fi",
       "template": "customer-insights",
-      "sha256": "ac5c60b00cee994d7148427c3f1f6a8051591644437089168319f83ecb7165c2"
+      "sha256": "6492c30a8ec89f20e73c08953014601bc05d68efef4386ac7eeea51da57bde69"
     },
     {
       "filename": "Zezhao_Wang_Research_Assessment_CV_EN.pdf",
@@ -137,7 +137,7 @@
       "locale": "en",
       "documentLanguage": "en",
       "template": "research-assessment",
-      "sha256": "178c91dfae111dde618fc014da41a6d1c19668887aa3006a87eda47eda985e63"
+      "sha256": "b996b2cf7481a496c435648e52b92d5b90f7e615e500f3f481d4aeeee6807ac6"
     },
     {
       "filename": "Zezhao_Wang_Research_Assessment_CV_ES.pdf",
@@ -145,7 +145,7 @@
       "locale": "es",
       "documentLanguage": "es",
       "template": "research-assessment",
-      "sha256": "607f0bc9cc30f49bdde4f926da2ae00c88cdac5616255da2db62931fda5b10ec"
+      "sha256": "c359e1e2f2f27c2b58aa7843235716bd6586728ee89f8bc044a72212730b39f7"
     },
     {
       "filename": "Zezhao_Wang_Research_Assessment_CV_ZH.pdf",
@@ -153,7 +153,7 @@
       "locale": "zh",
       "documentLanguage": "zh-Hans",
       "template": "research-assessment",
-      "sha256": "ab33aae8f45878c77c013b9dee0a2e67ac65903431d3e62af49b58b0eb42c7a0"
+      "sha256": "6905fe6c6d01cec396da9a94082dd0d707ed98c2b2d3ca898257853e951ba80b"
     },
     {
       "filename": "Zezhao_Wang_Research_Assessment_CV_FI.pdf",
@@ -161,7 +161,7 @@
       "locale": "fi",
       "documentLanguage": "fi",
       "template": "research-assessment",
-      "sha256": "f21a4569b2130641c1003d50f0ac6d5dc25ff7b3673355b798eaa2477e88b0f1"
+      "sha256": "50ee9c874f9333dc1355a08cad288097c8789510908fc050ff99b3660efd443b"
     }
   ]
 }
