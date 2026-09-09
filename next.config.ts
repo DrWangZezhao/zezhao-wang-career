@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   output: githubPages ? "export" : undefined,
   basePath,
   assetPrefix: basePath,
+  env: { NEXT_PUBLIC_BASE_PATH: basePath },
   trailingSlash: githubPages,
   images: { unoptimized: true },
 };

@@ -4,12 +4,12 @@ A production-oriented career website generated from one canonical evidence base.
 
 ## Public links
 
-- Primary site: <https://zezhao-wang-career.zedwang.chatgpt.site>
-- GitHub source: <https://github.com/zedwong1998-afk/zezhao-wang-career>
+- Primary site: <https://drwangzezhao.github.io/zezhao-wang-career/>
+- GitHub source: <https://github.com/DrWangZezhao/zezhao-wang-career>
 - Pages CMS editor: <https://app.pagescms.org/>
 - Applied project: <https://evaluation-data-inspector.streamlit.app/>
 
-The repository includes a GitHub Actions deployment for GitHub Pages. The primary site remains the canonical URL; the Pages build is a public static mirror and recovery path.
+The repository includes a GitHub Actions deployment for the canonical GitHub Pages site.
 
 ## Edit content without touching components
 
@@ -44,7 +44,7 @@ npm run validate:content
 npm run validate:pdfs
 npm run build
 node --test tests/rendered-html.test.mjs
-GITHUB_REPOSITORY=zedwong1998-afk/zezhao-wang-career npm run build:static
+GITHUB_REPOSITORY=DrWangZezhao/zezhao-wang-career npm run build:static
 ```
 
 `npm run generate:cvs` writes 20 deterministic files to `public/cv/` and mirrors user-facing copies to the ignored `outputs/cv/` directory. The PDF manifest records content revision, template revision, content hash, locale, profile, and file hashes.
